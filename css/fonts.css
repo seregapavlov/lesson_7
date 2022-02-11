@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap");
 
 @font-face {
-    font-family: "SourseSerif4";
-    src: url("../fonts/SourceSerif4-MediumItalic.woff2") formats ("woow2");
-    src: url("../fonts/SourceSerif4-MediumItalic.woff") formats ("woow");
+    font-family: "SourceSerif4";
+    src: url("../fonts/SourceSerif4-MediumItalic.woff2") format("woff2"),
+        url("../fonts/SourceSerif4-MediumItalic.woff") format("woff");
     font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
 @font-face {
-    font-family: "SourseSerif4";
-    src: url("../fonts/SourceSerif4-SemiBoldItalic.woff2") formats ("woow2");
-    src: url("../fonts/SourceSerif4-SemiBoldItalic.woff") formats ("woow");
+    font-family: "CSourceSerif4";
+    src: url("../fonts/SourceSerif4-SemiBoldItalic.woff2") format("woff2"),
+        url("../fonts/SourceSerif4-SemiBoldItalic.woff") format("woff");
     font-weight: 600;
     font-style: italic;
     font-display: swap;
