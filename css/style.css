@@ -1,0 +1,100 @@
+/* &display=swap */
+@import "null.css";
+@import "fonts.css";
+/* ================================================================ */
+body {
+	font-size: 16px;
+	font-family: "Oswald";
+	text-align: center;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+.conteiner {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+.nav {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.header > .nav > ul > li {
+	display: inline-block;
+	background-color: brown;
+	min-width: 100px;
+	min-height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 30%;
+	border: 1px solid black;
+	margin: 40px 0 40px 200px;
+}
+.h1 {
+	min-height: 250px;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(236, 232, 157, 1) 0%,
+		rgba(94, 83, 115, 1) 50%,
+		rgba(24, 181, 164, 1) 100%
+	);
+}
+h1 {
+	font-family: "SourceSerif4";
+	font-weight: 600;
+	font-style: italic;
+	font-size: 40px;
+	color: crimson;
+	text-align: center;
+}
+h2 {
+	font-size: 30px;
+	font-family: "SourceSerif4";
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	color: aqua;
+}
+p {
+	margin-bottom: 10px;
+}
+.section1 {
+	background-color: blue;
+
+	border: 3px solid gold;
+	color: aliceblue;
+}
+.section1 span {
+	color: blueviolet;
+}
+.section1 .p1 {
+	border: 2px dotted gold;
+}
+.section1 .p2 {
+	border: 2px dashed gold;
+}
+.section1 .p3 {
+	border: 2px double gold;
+}
+
+.section2 {
+	background-image: url(../img/ava.png);
+
+	border: 3px solid gold;
+	color: aliceblue;
+}
+
+.section2 .p1 {
+	padding: 50px;
+	background: url(../img/ava.png) center no-repeat;
+}
+.section2 .p2 {
+	padding: 50px;
+	background: url(../img/01.png) center no-repeat;
+}
+.section2 .p3 {
+}
+/*==============part2==============================*/

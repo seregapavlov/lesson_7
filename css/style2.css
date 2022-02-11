@@ -1,0 +1,52 @@
+@import "null.css";
+
+/*============================================================================================================================*/
+body {
+    font-family: "Lato";
+    font-style: 400;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.conteiner {
+    max-width: 810px;
+    margin: 0 auto;
+}
+img {
+    margin: 92px 0 60px 0;
+}
+h1 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+}
+p {
+    margin: 24px 0 24px 0;
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+}
+.bold2 {
+    background: url("../img/braces.svg") 0 0px / auto no-repeat;
+    padding: 0 0 0 50px;
+    margin: 48px 0;
+}
+
+.list {
+    background: url("../img/list.svg") 0 5px / auto no-repeat;
+
+    padding: 0 0 20px 50px;
+}
+
+.footer {
+    text-align: center;
+    margin: 30 auto;
+    font-size: 40px;
+    letter-spacing: 50px;
+}
